@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Straton, Silber</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+	<div id="header">
+	</div>
+	
+	<div id="subheader">
+	</div>
+
+	<%= yield %>
+
+	<div id="footer">
+	</div>
+
+</body>
+</html>
