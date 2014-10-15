@@ -4,6 +4,8 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.3'
 
 
+
+ruby '1.9.3'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
@@ -25,6 +27,7 @@ gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
 
+#For Heroku deployment
 group :development, :test do
   gem 'sqlite3'
   gem 'debugger'
@@ -34,7 +37,7 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'ZenTest'
 end
-
+gem 'rails_12factor'
 group :test do
   gem 'cucumber-rails', :require => false
   gem 'cucumber-rails-training-wheels'
