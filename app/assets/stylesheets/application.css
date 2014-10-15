@@ -12,15 +12,77 @@
  *= require_tree .
  */
 
- #header{
- 	background-color: teal;
+body h1{
+	color: #00557B;
+	font-family: sans-serif;
+}
 
+#header{
+ 	background-color: #00557B;
+ 	color: white;
+ 	height: 150px;
+ 	padding-left: 200px;
+ }
+
+#firm_name{
+	font-size: 30pt;
+	padding-top: 30px;
+	margin-bottom: 0px;
+}
+
+ #smaller_font{
+ 	font-size: 15pt;
+
+ }
+
+ #at_law{
+ 	margin-top: 5px;
+ }
+
+
+ 
+
+ #header h1{
+ 	color: white;
  }
 
  #subheader{
- 	background-color: brown;
+ 	background-color: #923e19;
+ 	color: white;
+ 	height: 50px;
+ 	margin-top: 5px;
+ }
+
+ .no_margin_top{
+ 	margin-top: 0px;
+ }
+
+ #subtitle{
+ 	padding-left: 200px;
  }
 
  #footer{
- 	background-color: teal;
+ 	background-color: #005984;
+ 	height: 150px;
+ 	color: #588dab;
+
+ }
+
+ #footer a {
+ 	background-color: #005984;
+ 	color: white;
+ 	text-decoration: none;
+ }
+
+ #footer a:hover {
+    text-decoration: underline;
+    color: lime;
+} 
+
+ #office_locations{
+ 	color: white;
+ 	text-align: left;
+ 	float: right;
+ 	padding-right: 150px;
+	
  }
